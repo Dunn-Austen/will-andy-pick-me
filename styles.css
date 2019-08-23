@@ -10,3 +10,85 @@ light blue background: #E6ECF4;
 clear button: #DE4841;
 clear button disabled: #D0CDCD
 */
+
+main {
+  width: 45%;
+  height: 250px;
+  display: flex;
+  margin: auto;
+  /* margin: top right bottom left */
+}
+
+/* Header Styling */
+
+header {
+  width: 55%;
+  text-align: center;
+  margin: auto;
+  font-family: 'Kalam', cursive;
+  font-size: 20px;
+  margin-bottom: -10px;
+}
+
+h1 {
+  color: #2B4E80;
+}
+
+/* Section-left Content Styling */
+
+.section-left {
+  width: 50%;
+  background-color: #E6ECF4;
+  padding: 7px 10px 14px 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  font-family: 'Open Sans', sans-serif;
+}
+
+form {
+  width: 95%;
+}
+
+.text-box {
+  width: 100%;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  text-align: center;
+  margin-bottom: 3px;
+}
+
+.answer-button {
+  font-family: 'Open Sans', sans-serif;
+  background-color: #2B4E80;
+  color: white;
+  width: 102%;
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+
+.img-one {
+  height: 80px;
+  width: auto;
+}
+
+.clear-button {
+  background-color: lightgrey;
+  color: white;
+  position: relative;
+  left: 135px;
+}
+
+/* Section-right Styling */
+
+section-right {
+  width: 50%;
+  display: flex;
+}
+
+.img-two {
+  height: 250px;
+  width: auto;
+  padding-left: 70px;
+}
