@@ -71,6 +71,34 @@ form {
 .img-one {
   height: 80px;
   width: auto;
+  display: block;
+}
+
+/* Section for hidden text, um, if I'm doing things right. */
+/* Text still need to be styled */
+
+.hidden-text-one {
+  display: none;
+}
+
+.hidden-text-two {
+  display: none;
+}
+
+.hidden-text-three {
+  display: none;
+}
+
+.hidden-text-four {
+  display: none;
+}
+
+.hidden-text-five {
+  display: none;
+}
+
+.hidden-text-six {
+  display: none;
 }
 
 .clear-button {
